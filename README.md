@@ -5,5 +5,5 @@ I'll list here that may need to ask help or fix it myself:
 <ul>
   <li>Bad physics: Ball refuses to "ricochet" even hitting the ball with moving paddle and even the friction is already set.</li>
 </ul>
-
-Should've stick to Web Engineering...
+<br>
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg" alt="I have no idea what I'm doing." width="30%">
