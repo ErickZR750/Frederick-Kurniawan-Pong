@@ -1,7 +1,7 @@
 <h1>AGC Batch #5 in 2D Programming</h1>
 This is an assignment in my AGC's session from November 20th to December 20th, 2023. Currently tasked to create a video game called "Pong."
 <br>
-List of bugs that may need to ask help or fix it myself:
+List of bugs that may need to ask for help or fix it myself:
 <ul>
   <li>Bad physics: Ball refuses to "ricochet" even hitting the ball with moving paddle and even the friction is already set. Current workaround is by setting the starting position X to 2 to give "ricochet" feeling.</li>
 </ul>
