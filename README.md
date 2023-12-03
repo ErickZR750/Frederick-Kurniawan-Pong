@@ -7,13 +7,13 @@ List of bugs that may need to ask for help or fix it myself:
 </ul>
 <br>
 After Week 2 assignment is completed, it might be nice to put some Changelog here to give me bad memories:
-<h3>Prototype v 0.0.0.0.2 (Codename: Week 2 Assignment)</h3>
+<h3>Prototype v0.0.0.0.2 (Codename: Week 2 Assignment)</h3>
 <ol>
   <li>Added Main Menu</li>
   <li>Added Scoring System (Default maximum score is 5)</li>
   <li>Ball returns to arena after goal</li>
 </ol>
-<h3>Prototype v 0.0.0.0.1 (Codename: Week 1 Assignment)</h3>
+<h3>Prototype v0.0.0.0.1 (Codename: Week 1 Assignment)</h3>
 <ol>
   <li>Base gameplay only</li>
 </ol>
