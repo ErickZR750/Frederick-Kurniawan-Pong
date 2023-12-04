@@ -18,4 +18,4 @@ After Week 2 assignment is completed, it might be nice to put some Changelog her
   <li>Just the gameplay. Doesn't even count as a game yet.</li>
 </ol>
 <br>
-<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg" alt="I have no idea what I'm doing." width="30%">
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg" alt="I have no idea what I'm doing." width="40%">
