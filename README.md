@@ -3,7 +3,7 @@ This is an assignment in my AGC's session from November 20th to December 20th, 2
 <br>
 List of bugs or problem that may need to ask for help or fix it myself:
 <ul>
-  <li>Ball refuses to "ricochet" even hitting the ball with moving paddle and Bounce with Friction function is already set. Current workaround is by setting the starting ball speed slanted (x = 2, y = 0)</li>
+  <li>Ball refuses to "ricochet" even hitting the ball with moving paddle and Bounce with Friction function is already set. Current workaround is by setting the starting ball speed slanted (x = 6, y = 2)</li>
 </ul>
 <br>
 I'll also make a changelong here to make this Readme more entertaining:
