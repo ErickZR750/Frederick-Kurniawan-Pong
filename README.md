@@ -6,7 +6,7 @@ List of bugs or problem that may need to ask for help or fix it myself:
   <li>Ball refuses to "ricochet" even hitting the ball with moving paddle and Bounce with Friction function is already set. Current workaround is by setting the starting ball speed slanted (x = 6, y = 2)</li>
 </ul>
 <br>
-I'll also make a changelong here to make this Readme more entertaining:
+Might as well make a changelog here to make this Readme more entertaining:
 <h3>Prototype v0.0.0.0.2 Revision 1</h3>
 <ol>
   <li>Both paddles body type is Dynamic instead of Kinematic to prevent going through walls.</li>
