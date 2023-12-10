@@ -10,7 +10,7 @@ List of bugs or problem that may need to ask for help or fix it myself:
 Might as well make a changelog here to make this Readme more entertaining:
 <h3>Prototype v0.0.0.0.3</h3>
 <ol>
-  <li>Added "seemingly broken as it sounds" power-up system.</li>
+  <li>Added (seemingly broken as it sounds) power-up system.</li>
   <li>Ball finally ricochets when hitting with moving paddle.</li>
 </ol>
 <h3>Prototype v0.0.0.0.2 Revision 1</h3>
