@@ -1,4 +1,4 @@
-<h1 href="#readme-ov-file">AGC Batch #5 in 2D Programming</h1>
+<h1>AGC Batch #5 in 2D Programming</h1>
 This is an assignment in my AGC's session from November 20th to December 20th, 2023. Currently tasked to recreate a video game called "Pong."
 <br>
 List of bugs or problem that may need to ask for help or fix it myself:
