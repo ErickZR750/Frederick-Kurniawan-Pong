@@ -4,6 +4,7 @@ This is an assignment in my AGC's session from November 20th to December 20th, 2
 List of bugs or problem that may need to ask for help or fix it myself:
 <ul>
   <li><strike>Ball refuses to "ricochet" even hitting the ball with moving paddle and Bounce with Friction function is already set. Current workaround is by setting the starting ball speed slanted (x = 6, y = 2)</strike></li>
+  <li>Power-up effects are activated endlessly instead of dissipates after a certain amount of time. Even worse, you can stack it up. This somehow did not cover in this week's assignment.</li>
 </ul>
 <br>
 Might as well make a changelog here to make this Readme more entertaining:
