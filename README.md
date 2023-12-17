@@ -28,4 +28,4 @@ Might as well make a changelog here to make this Readme more entertaining:
   <li>Base gameplay only. Doesn't even count as a game yet.</li>
 </ol>
 <br>
-<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg" alt="I have no idea what I'm doing." width="40%"> <img src="https://github.com/ErickZR750/Frederick-Kurniawan-Pong/blob/main/decor.jpg" alt="Dikasih tugas gak ada materi." width="40%">
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg" alt="I have no idea what I'm doing." width="40%">
