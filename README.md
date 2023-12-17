@@ -4,10 +4,19 @@ This is an assignment in my AGC's session from November 20th to December 20th, 2
 List of bugs or problem that may need to ask for help or fix it myself:
 <ul>
   <li><strike>Ball refuses to "ricochet" even hitting the ball with moving paddle and Bounce with Friction function is already set. Current workaround is by setting the starting ball speed slanted (x = 6, y = 2)</strike></li>
-  <li>Power-up effects are activated endlessly instead of dissipates after a certain amount of time. Even worse, you can stack it up. This somehow did not cover in this week's assignment.</li>
+  <li><strike>Power-up effects are activated endlessly instead of dissipates after a certain amount of time. Even worse, you can stack it up. This somehow did not cover in this week's assignment.</strike></li>
+  <li>Coroutine conflict preventing to dissipate power ups over time.</li>
+  <li>Extra Long paddle power up failed to work. Delisted from Manager.</li>
+  <li>Fast paddles couldn't bother putting it in since I still don't know how to deal with Coroutine.</li>
 </ul>
 <br>
 Might as well make a changelog here to make this Readme more entertaining:
+<h3>Failed Prototype v0.0.0.0.4</h3>
+<ol>
+  <li>Added Back to Main Menu buttons.</li>
+  <li>Author button is now somewhat Credits.</li>
+</ol>
+Yes I still have to Commit that failed build somehow because of the deadline assignment. Ready or not.
 <h3>Prototype v0.0.0.0.3</h3>
 <ol>
   <li>Added (seemingly broken as it sounds) power-up system.</li>
