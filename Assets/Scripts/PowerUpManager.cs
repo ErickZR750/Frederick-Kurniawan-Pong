@@ -69,9 +69,15 @@ public class PowerUpManager : MonoBehaviour
 
     private IEnumerator DespawnPowerUpAfterDelay(GameObject powerUp, float delay)
     {
-        yield return new WaitForSeconds(delay);
+        float startTime = Time.time; // Code replaced to try mitigate Coroutine conflict BUT IT STILL DOESNT WORK!
+        while (Time.time < startTime + delay)
+        {
+            yield return null;
+        }
+
         RemovePowerUp(powerUp);
     }
+
 
     public void RemoveAllPowerUp()
     {

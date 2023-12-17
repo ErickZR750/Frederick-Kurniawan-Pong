@@ -234,7 +234,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.13725491, g: 0.13725491, b: 0.13725491, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 643287499}
   - component: {fileID: 643287498}
   m_Layer: 5
-  m_Name: Controls Help
+  m_Name: Controls Contents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 187, y: -250}
+  m_AnchoredPosition: {x: 186.45, y: -250}
   m_SizeDelta: {x: 320, y: 160}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &643287498
@@ -561,22 +561,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Paddle Kiri:
+  m_Text: 'Left Paddle:
 
-    W = Naik
+    W to go up
 
-    S = Turun
-
-
-    Paddle Kanan:
-
-    I =
-    Naik
-
-    K = Turun
+    S to go down
 
 
-    Yang mencapai skor 5 adalah pemenang.'
+    Right Paddle:
+
+    I
+    to go up
+
+    K to go down
+
+
+    The first to reach 5 scores is the winner.'
 --- !u!222 &643287499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -584,6 +584,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643287496}
+  m_CullTransparentMesh: 1
+--- !u!1 &1128091846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128091847}
+  - component: {fileID: 1128091849}
+  - component: {fileID: 1128091848}
+  m_Layer: 5
+  m_Name: Sub Judul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1128091847
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128091846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1635059437}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 30, y: -65}
+  m_SizeDelta: {x: 335, y: 27}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1128091848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128091846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: WITH UNFAIR ADVANTAGES
+--- !u!222 &1128091849
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128091846}
   m_CullTransparentMesh: 1
 --- !u!1 &1132075258
 GameObject:
@@ -676,7 +755,7 @@ GameObject:
   - component: {fileID: 1211205795}
   - component: {fileID: 1211205794}
   m_Layer: 5
-  m_Name: Teks Author
+  m_Name: Teks Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,7 +813,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Author
+  m_Text: Credits
 --- !u!222 &1211205795
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -778,7 +857,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 30, y: -30}
-  m_SizeDelta: {x: 134, y: 41}
+  m_SizeDelta: {x: 245, y: 41}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1339498403
 MonoBehaviour:
@@ -813,7 +892,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POONG
+  m_Text: PONG CLONE
 --- !u!222 &1339498404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -919,9 +998,10 @@ RectTransform:
   m_Children:
   - {fileID: 17149217}
   - {fileID: 1339498402}
+  - {fileID: 1128091847}
+  - {fileID: 2029697406}
   - {fileID: 600654920}
   - {fileID: 1660984082}
-  - {fileID: 2029697406}
   - {fileID: 1766847929}
   - {fileID: 643287497}
   - {fileID: 2137118639}
@@ -957,7 +1037,7 @@ GameObject:
   - component: {fileID: 1660984084}
   - component: {fileID: 1660984083}
   m_Layer: 5
-  m_Name: Tombol Author
+  m_Name: Tombol Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,8 +1270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.7, y: 146.9}
-  m_SizeDelta: {x: 230, y: 20}
+  m_AnchoredPosition: {x: 82, y: 125.9}
+  m_SizeDelta: {x: 289.4, y: 35.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2029697407
 MonoBehaviour:
@@ -1226,7 +1306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: now with "broken" powerup system!
+  m_Text: what a failed build...
 --- !u!222 &2029697408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1247,7 +1327,7 @@ GameObject:
   - component: {fileID: 2137118641}
   - component: {fileID: 2137118640}
   m_Layer: 5
-  m_Name: Joke Version
+  m_Name: Joke Version Number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1305,7 +1385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Prototype v0.0.0.0.3
+  m_Text: Failed Prototype v0.0.0.0.4
 --- !u!222 &2137118641
 CanvasRenderer:
   m_ObjectHideFlags: 0

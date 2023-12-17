@@ -12,6 +12,6 @@ public class MainMenuController : MonoBehaviour
 
     public void OpenAuthor()
     {
-        Debug.Log("Pong clone by Frederick Kurniawan");
+        SceneManager.LoadScene("Credits");
     }
 }

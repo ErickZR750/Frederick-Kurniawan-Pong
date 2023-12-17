@@ -13,7 +13,6 @@ public class PaddleController : MonoBehaviour
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        Debug.Log("Kecepatan Paddle: " + speed);
     }
 
     private void Update()
